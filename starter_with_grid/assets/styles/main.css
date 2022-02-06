@@ -1,0 +1,82 @@
+@font-face {
+  font-family: RobotoMonoItalic;
+  src:url("../fonts/roboto-mono/RobotoMono-Italic.ttf");
+}
+
+body {
+  background-color: #F5F5F5;
+  text-align: center;
+  color: #484848; /* black */
+
+  font-family: RobotoMonoItalic;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+a {
+  color: #484848; /* black */
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.container {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.column {
+  padding: 16px;
+}
+
+.intro {
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+
+img.intro {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+}
+
+.intro-copy {
+  margin-bottom: 26px;
+}
+
+.topAndBottomSpace {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.tileBox {
+  height: 150px;
+  background-color: white;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border: 1px solid #C0C0C0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tileBox:hover {
+  box-shadow: none;
+  cursor: grabbing;
+}
+
+.roundCorners {
+  border-radius: 6px;
+}
