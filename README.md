@@ -12,7 +12,7 @@
 * [Helena Hahn](https://bsamm.github.io/fidm/helena-hahn/home.html)
 * [Joshua Crespo](https://bsamm.github.io/fidm/joshua-crespo/index.html)
 * [Karen Sanovicz](https://bsamm.github.io/fidm/karen-sanovicz/Atom/Home.html)
-* [Martina Adrianza](https://bsamm.github.io/fidm/jmartina-adrianza/home.html)
+* [Martina Adrianza](https://bsamm.github.io/fidm/martina-adrianza/home.html)
 * [Parker Wild](https://bsamm.github.io/fidm/parker-wild/Atomdraft1.html)
 * Talea Thornton
 - [Index](https://bsamm.github.io/fidm/talea-thornton/index.html)
