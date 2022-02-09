@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "AllRoundGothic" :
+  src:url(assets/fonts/All-Round-Gothic/AllRoundGothic-Demi.ttf);
+}
+
+body {
+  background-color: #262525;
+  text-align: center;
+  color: #EDE0CF; /* black */
+
+  font-family: AllRoundGothic;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+a {
+  color: #EDE0CF; /* black */
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.container {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.column {
+  padding: 16px;
+}
+
+.intro {
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+
+img.intro {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+}
+
+.intro-copy {
+  margin-bottom: 26px;
+}
+
+.topAndBottomSpace {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.tileBox {
+  height: 150px;
+  background-color: white;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border: 1px solid #C0C0C0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tileBox:hover {
+  box-shadow: none;
+  cursor: grabbing;
+}
+
+
+}
