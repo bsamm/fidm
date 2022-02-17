@@ -1,5 +1,5 @@
 body {
-  background-color: #fff;
+  background-color: #000;
   margin: 0px;
   padding: 0px;
 }
@@ -15,13 +15,13 @@ a {
 section {
   width: 100%;
   height: 95vh;
-  position: absolute;
+  /* position: absolute; */
 }
 
 
 button {
   transition: all .5s ease;
-  color: #000;
+  color: #fff;
   border: 2px solid black;
   text-transform: uppercase;
   text-align: center;
@@ -31,18 +31,19 @@ button {
   height: 45px;
   font-family: Helvetica Neue;
   font-size: 14px;
-  margin: 0px 10px;
 }
 
 button:hover {
   color: #fff;
   border-radius: 5px;
   background-color: #000;
+  border-color: #fff;
 }
 
 .container-header{
   padding-left: 2%;
   padding-right: 2%;
+  padding-bottom: 120px;
 }
 
 .navbar{
@@ -77,24 +78,25 @@ nav ul li:hover{
 nav ul li a{
   font-family: Helvetica Neue;
   font-size: 13px;
-  color: #000;
+  color: #fff;
   letter-spacing: 1px;
 }
 
 .active{
   font-weight: bold;
-  color: #2d2a2a;
+  color: rgb(80, 80, 80);
 }
 
 .text-container p:nth-child(1){
   font-family: Helvetica Neue;
   letter-spacing: .5px;
+  color: #fff;
 }
 
 .text-container p:nth-child(2){
   font-family: 'SF Pro Display';
   font-weight: 500;
-  color: #000;
+  color: #fff;
   font-size: 22px;
   font-size: 60px;
 }
@@ -103,12 +105,14 @@ nav ul li a{
   font-family: Helvetica Neue;
   font-size: 24px;
   line-height: 10px;
+  color: rgb(190, 190, 190);
 }
 
 .text-container p:nth-child(4){
   font-family: Helvetica Neue;
   font-size: 18px;
   line-height: 20px;
+  color: rgb(200, 200, 200);
 }
 
 .text-container p{
@@ -116,10 +120,10 @@ nav ul li a{
 }
 
 .text-container{
-  position: absolute;
+  position: relative;
   padding-left: 5%;
-  top: 42%;
-  transform: translate(-5%,-42%);
+  /* top: 42%; */
+  /* transform: translate(-5%,-42%); */
 }
 
 .text-container button{
@@ -152,7 +156,7 @@ button:active{
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
   display: flex;
   margin: -7% auto 20px auto;
-  position: relative;
+  /* position: relative; */
 }
 
 .about-text{
