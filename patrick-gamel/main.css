@@ -1,5 +1,43 @@
+@font-face {
+  font-family: ITCSerifGothicBold;
+  src:url("assets/SerifGothicStd-Bold.otf");
+}
+
+@font-face {
+  font-family: ITCSerifGothic;
+  src:url("assets/SerifGothicStd.otf");
+}
+
 body {
-  background-image: url("assets/about-bg.jpg")
+  background-image: url("assets/aboutbg.jpg");
+  background-size: 100%;
+  font-family: ITCSerifGothicBold;
+  background-attachment: fixed;
+
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+  font-family: ITCSerifGothic;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+  font-family: ITCSerifGothic;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+  font-family: ITCSerifGothicBold;
+}
+
+/* selected link */
+a:active {
+  color: black;
+
 }
 
 div.top-menu {
@@ -11,7 +49,7 @@ div.top-menu {
   background: transparent;
   color: black;
   padding: 0px;
-  font-size: 12px;
+  font-family: ITCSerifGothic;
   border: none;
 }
 
@@ -35,10 +73,25 @@ div.top-menu {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: #ddd;
+font-family: ITCSerifGothicBold;
+}
 
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: transparent;}
+
+.menu-right {
+  text-align: right;
+  vertical-align: middle;
+}
+
+
+
+}
+
+a.bodylink {
+  color: white;
+}
 
 </style>

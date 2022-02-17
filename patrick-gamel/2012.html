@@ -2,14 +2,26 @@
 
 <htm lang="en">
   <head>
-    <link rel="stylesheet"
-    href="main.css"
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device"
+    <link rel="stylesheet" href="main.css">
+    <!-- unsemantic grid, learn more here: https://unsemantic.com/css-documentation -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/unsemantic/1.2.3/unsemantic-grid-responsive.min.css" integrity="sha512-LAimmZ/VX13iV1VJ3xThr5qWRKvji/fNwQrqvxcxQJxZ440lzwGipJGkvPBEKXcHcv+iH/F/Lw2YtnybNR7kEg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device">
+  </head>
 <body>
-  <div menu>
-    <a href="home.html">Home</a>
+<!--table class="menubar" width="100%">
+  <tr>
+  <td-->
+  <div class="grid-container">
+    <div class="grid-50">
+      <a href="home.html"><img src="assets/logo-header.png"></a>
+    </div>
+  <!--/td>
+  <td-->
+    <div class="grid-50" style="text-align:right;line-height:85px;height:85px;">
+      <!-- div class="top-menu" -->
+    <!--DROP DOWN FIRST ATTEMPT
     <label for="Projects"></label>
       <select name="Projects" id="Projects">
         <option value="Projects">Projects</option>
@@ -17,11 +29,16 @@
         <option value="Golden Terra"><a href="golden.html">Golden Terra Co.</a></option>
         <option value="Album Concepts"><a href="albums.html">Album Design Concepts</a></option>
         <option value="Social Branding"><a href="socials.html">Social Media Branding</a></option>
-  </select>
-    <a href="about.html">About</a> <a href="contact.html">Contact</a>
-    <br>
-    <hr>
+      </select>-->
+      <div class="dropdown" style="text-align:right;line-height:125%;height:125%;">
+        <button class="dropbtn">Projects</button>
+        <div class="dropdown-content">
+          <a href="2012.html">2012 Bid Adieu</a>
+          <a href="golden.html">Golden Terra Co.</a>
+          <a href="albums.html">Album Concepts</a>
+          <a href="socials.html">Social Branding</a>
+        </div>
+      </div>
+    &emsp;&emsp;<a href="about.html">About</a> &emsp;&emsp;<a href="contact.html">Contact</a>
+    </div>
   </div>
-    <p>
-  2012 Bid Adieu
-</body>

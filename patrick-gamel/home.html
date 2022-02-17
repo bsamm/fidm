@@ -3,13 +3,24 @@
 <htm lang="en">
   <head>
     <link rel="stylesheet" href="main.css">
+    <!-- unsemantic grid, learn more here: https://unsemantic.com/css-documentation -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/unsemantic/1.2.3/unsemantic-grid-responsive.min.css" integrity="sha512-LAimmZ/VX13iV1VJ3xThr5qWRKvji/fNwQrqvxcxQJxZ440lzwGipJGkvPBEKXcHcv+iH/F/Lw2YtnybNR7kEg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device">
   </head>
 <body>
-
-<a href="home.html">Home</a>
-  <div class="top-menu">
+<!--table class="menubar" width="100%">
+  <tr>
+  <td-->
+  <div class="grid-container">
+    <div class="grid-50">
+      <a href="home.html"><img src="assets/logo-header.png"></a>
+    </div>
+  <!--/td>
+  <td-->
+    <div class="grid-50" style="text-align:right;line-height:85px;height:85px;">
+      <!-- div class="top-menu" -->
     <!--DROP DOWN FIRST ATTEMPT
     <label for="Projects"></label>
       <select name="Projects" id="Projects">
@@ -19,16 +30,78 @@
         <option value="Album Concepts"><a href="albums.html">Album Design Concepts</a></option>
         <option value="Social Branding"><a href="socials.html">Social Media Branding</a></option>
       </select>-->
-      <div class="dropdown">
-  <button class="dropbtn">Projects</button>
-  <div class="dropdown-content">
-    <a href="2012.html">2012 Bid Adieu</a>
-    <a href="golden.html">Golden Terra Co.</a>
-    <a href="albums.html">Album Concepts</a>
-    <a href="socials.html">Social Branding</a>
+      <div class="dropdown" style="text-align:right;line-height:125%;height:125%;">
+        <button class="dropbtn">Projects</button>
+        <div class="dropdown-content">
+          <a href="2012.html">2012 Bid Adieu</a>
+          <a href="golden.html">Golden Terra Co.</a>
+          <a href="albums.html">Album Concepts</a>
+          <a href="socials.html">Social Branding</a>
+        </div>
+      </div>
+    &emsp;&emsp;<a href="about.html">About</a> &emsp;&emsp;<a href="mailto:art.pgamel@gmail.com">Contact</a>
+    </div>
   </div>
-</div>
-    &emsp;&emsp;<a href="about.html">About</a> &emsp;&emsp;<a href="contact.html">Contact</a>
+  <!-- </div> -->
+  <!--/td>
+</table-->
+<p>
+  <div class="grid-container" height="75%">
+    <div class="grid-50" style="text-align: center;">
+    <h2>
+      <a href="2012.html" style="color: white;">2012 Bid Adieu</a>
+    </h2>
+    <p style="color:white;">(Social Media and Merchandise Design)</p>
+    </div>
+
+    <div class="grid-50">
+      <center>
+        <img src="assets/2012 Spotify Profile.png" width="50%">
+    </center>
+    </div>
   </div>
-<p> Home
+</p>
+
+<hr width="75%">
+
+<p>
+  <div class="grid-container" height="75%">
+    <div class="grid-50">
+      <center>
+        <img src="assets/2012 Spotify Profile.png" width="50%">
+      </center>
+    </div>
+
+    <div class="grid-50" style="text-align: center;">
+      <h2>
+        <a href="golden.html" style="color: white;">Golden Terra Co.</a>
+      </h2>
+
+      <p style="color:white;">
+        (Logo and Brand Design)
+      </p>
+    </div>
+  </div>
+</p>
+
+<hr width="75%">
+
+<p>
+  <div class="grid-container" height="75%">
+    <div class="grid-50" style="text-align: center;">
+    <h2>
+      <a href="2012.html" style="color: white;">Synead</a>
+    </h2>
+    <p style="color:white;">(Merchandise and Identity Design)</p>
+    </div>
+
+    <div class="grid-50">
+      <center>
+        <img src="assets/2012 Spotify Profile.png" width="50%">
+    </center>
+    </div>
+  </div>
+</p>
+
+
 </body>
