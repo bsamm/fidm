@@ -1,7 +1,7 @@
-p {
+ul {
   color: #292929;
-  font-family: Poppin;
   font-size: 46px;
+  font-family: Poppin;
   text-align: center;
 }
 
@@ -12,13 +12,13 @@ ul {
   float: none;
   text-align: center;
   color: #292929;
-  font-family: Poppins;
+  font-family: Poppin;
   font-size: 20px;
 }
 
 li {
   display: inline-block;
-  padding: 15px;
+  padding: 25px;
 }
 
 li:nth-child(1) {
@@ -42,20 +42,37 @@ li:nth-child(4) {
 a:link {
   text-decoration: none;
   color: #292929;
+  font-family: Poppin;
 }
 
 a:visited {
   text-decoration: none;
+  color: #292929;
+  font-family: Poppin;
 }
 
 a:hover {
   padding-bottom: 7px;
   border-bottom-style: solid;
   border-bottom-width: 2.5px;
+  color: #292929;
+  font-family: Poppin;
 }
 
 a:active {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #292929;
+  font-family: Poppin;
+}
+
+img {
+ max-width: 100%;
+ max-height: 100%;
+ flex-direction: row;
+ justify-content: flex-start;
+ display: block;
+ background-size: cover;
+ float:left;
 }
 
 .work {
@@ -65,37 +82,167 @@ max-width: 100%;
 background-size: cover;
 }
 
-img {
- max-width: 100%;
- max-height: 100%;
- flex-direction: row;
- justify-content: flex;
- display: block;
- background-size: cover;
- float:left;
-}
-
 .cultgaiacover {
-  height: 715px;
-  width: 925px;
+  height: 604px;
+  width: 860px;
   object-fit: cover;
   background-size: cover;
-  padding-left: 100px;
 }
 
 .nanushkacircolocover {
-  height: 360px;
-  width: 360px;
+  height: 302px;
+  width: 490px;
   object-fit: cover;
   background-size: cover;
   float: left;
 }
 
 .rotatecover {
-  height: 715px;
-  width: 925px;
+  height: 604px;
+  width: 860px;
   object-fit: cover;
   background-size: cover;
-  float: left;
-  padding-right: 100px;
+}
+
+.sansfaffcover {
+  height: 500px;
+  width: 860px;
+  object-fit: cover;
+  background-size: cover;
+  float:left;
+}
+
+.secondwork {
+float:left;
+display: flex;
+max-width: 100%;
+background-size: cover;
+}
+
+.bpcover {
+  height: 500px;
+  width: 270px;
+  display: flex;
+  object-fit:cover;
+  background-size: cover;
+}
+
+.collage {
+  height: 500px;
+  width: 280px;
+  display: flex;
+  object-fit:cover;
+  background-size: cover;
+}
+
+.thirdwork{
+  float:left;
+  display: flex;
+  max-width: 100%;
+  background-size: cover;
+}
+
+.birdnknollcover {
+  height: 604px;
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
+  float:left;
+}
+
+.seemorecover {
+  height: 604px;
+  width: 100%;
+  display:flex;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.personalwork {
+  float:left;
+  display: flex;
+  max-width: 100%;
+  background-size: cover;
+}
+
+.grimescover {
+  height: 663px;
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.glossiercover {
+  height: 663px;
+  width: 100%;
+  size: auto;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.secondpersonalwork{
+  float:left;
+  display: flex;
+  max-width: 100%;
+  background-size: cover;
+}
+
+.guscover img{
+  width: 50%;
+  object-fit: cover;
+  object-position: -20% 0%;
+  float:left;
+  overflow: hidden;
+}
+
+.footer{
+  color: #292929;
+  font-family: Poppin;
+  font-size: 20px;
+  text-align: center;
+}
+
+.leaveamessage{
+  font-family: Telugu MN;
+  font-size: 150%;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+
+input[type=text] {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  display:inline-block;
+  margin-right:30px;
+}
+
+.message input[type=text]{
+  height: 40%;
+}
+
+fieldset{
+  max-width: 50%;
+  align-items: center;
+  text-align: center;
+  border: none;
+  outline: none;
+  margin: auto;
+}
+
+.mypicture{
+  max-width: %;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  background-size: cover;
+  text-align: center;
+  background-color: #292929;
+}
+
+.mypicturecover{
+  width: 60%;
+  height: 60%;
 }
