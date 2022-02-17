@@ -1,9 +1,21 @@
 @font-face {
-  font-family: "AllRoundGothic" :
-  src:url(assets/fonts/All-Round-Gothic/AllRoundGothic-Demi.ttf);
+  font-family: AllRoundGothic;
+  src:url("../fonts/All-Round-Gothic/AllRoundGothic-Demi.ttf");
+}
+@font-face {
+  fornt-family: Helvetica;
+  src:url(".../font/Helvetica-Font/Helvetica.ttf");
+}
+body {
+  background-color: #262525;
+  text-align: center;
+  color: #EDE0CF; /* black */
+
+  font-family: Helvetica;
+    line-height: 170%
 }
 
-body {
+h1 {
   background-color: #262525;
   text-align: center;
   color: #EDE0CF; /* black */
@@ -11,12 +23,12 @@ body {
   font-family: AllRoundGothic;
 }
 
-h1 {
-
-}
-
 h2 {
+  text-align: center;
+  color: #FFFFFF; /* white */
 
+    font-family: Helvetica;
+      line-height: 160%
 }
 
 h3 {
@@ -34,27 +46,31 @@ a {
 }
 
 .container {
-  margin-top: 16px;
+  margin-top: 20px;
   margin-bottom: 16px;
 }
 
 .column {
-  padding: 16px;
+  padding: 5px;
+}
+.name{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+
+}
+.info {
+  margin-top: 20px;
+  margin-bottom: 10px;
+
 }
 
-.intro {
-  margin-top: 26px;
-  margin-bottom: 26px;
-}
+.know {
 
-img.intro {
-  border-radius: 50%;
-  width: 64px;
-  height: 64px;
-}
-
-.intro-copy {
-  margin-bottom: 26px;
+  justify-content: center;
+  align-items: center;
+    color: #FFFFFF; /* white */
 }
 
 .topAndBottomSpace {
@@ -62,20 +78,10 @@ img.intro {
   margin-bottom: 50px;
 }
 
-.tileBox {
-  height: 150px;
-  background-color: white;
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-  border: 1px solid #C0C0C0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.hero-image {
+  width: 1150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
-
-.tileBox:hover {
-  box-shadow: none;
-  cursor: grabbing;
-}
-
-
 }
