@@ -1,0 +1,27 @@
+.head-ul{
+	background-color: black;
+	height: 140px;
+	list-style: none;
+}
+
+.head-li{
+	text-align: center;
+	width: 15%;
+	margin-top: 50px;
+}
+
+.head-a{
+	margin-top: 80px;
+	color: white;
+	font-size: 40px;
+}
+
+.homepage{
+	background-size: cover;
+	background-image: url(../img/header/HOMEPAGE.png);
+	background-repeat: no-repeat;
+}
+
+.backimg{
+	 width:"160px";
+}

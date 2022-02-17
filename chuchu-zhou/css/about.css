@@ -1,0 +1,24 @@
+.aboutpage{
+	background-size: cover;
+	background-image: url(../img/about/myphoto.png);
+	background-repeat: no-repeat;
+}
+
+.about-ul{
+		list-style: none;
+}
+
+.about-li-one{
+		color: white;
+	    margin-top: 100px;
+	    margin-left: 150px;
+			font-size: 45px;
+			margin-bottom: 50px;
+}
+
+.about-li{
+		color: white;
+	    margin-top: 100px;
+	    margin-left: 150px;
+	    font-size: 30px;
+}
