@@ -5,28 +5,89 @@
     <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>MZHou</title>
+</head>
+
 <style type="text/css">
+ a{
+    color:white;
+    font-family: BM Kirang Haerang;
+    font-size: 49px;
+    text-decoration: none;
+  }
 
   body{
-    color:white
+    background-repeat: no-repeat;
+    background-size: cover
   }
-  a{
-    color: white;
-    font-family: sans-serif;
-    font-size: 30px
-  }
+
+
+.dropbtn {
+  color: white;
+  font-size: 49px;
+  border: none;
+  font-family: BM Kirang Haerang;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: sans-serif;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: sans-serif;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 </style>
 
-<ol>
+<body>
+  <body background="/Users/mzhou/Desktop/Web/image/HOME PAGE BACKGROUND.04.22.png">
+      <br/> <center><a href="About.html">ABOUT</a>
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <div class="dropdown">
+          <button class="dropbtn">DESIGN</button>
+          <div class="dropdown-content">
+            <a href="#">DRAWING</a>
+            <a href="#">LOGO</a>
+            <a href="#">PROJECT</a>
+          </div>
+        </div>
 
-
-      <body background="/Users/mzhou/Desktop/Web/image/HOME PAGE BACKGROUND.04.22.png" >
-      <br/>  <center><a href="About.html">ABOUT</a>
-      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="Design.html">DESIGN</a>
           &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="Photography.html">PHOTOGRAPHY</a>
           &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="Contact.html">CONTACT</a></center>
+</body>
 
-  	 </body>
-<ol>
   </html>
