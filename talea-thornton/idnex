@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name=charset=utf-8>
+  <title>Talea Thornton</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <nav>
+    <ul>
+    <li><a href="Contact me.html"></a>Contact Me</li>
+    <li><a href=Portfolio.html></a>Portfolio</li>
+    <li><a href="About me.html"></a>About Me</li>
+    <li><a href="index.html"></a>Home</li>
+
+    </ul>
+  </nav>
+ </body>
+</html>
+
+<body>
+
+<h1> See What's New! <h1>
+
+</body>
+
+<img src="img/sketches.jpg" alt=white style="width:300px;height:200px;">
+
+
+<img src="img/cover Story.lnk" alt=magazine style="width:300px;height:200px;">
+
+
+<img src="img/contest draft.lnk" alt=Contestdraft style="width:300px;height:200px">
+
+</body>
+
+
+<body>
+
+  <h2>Sketches</h2>
+   <p>A sketched out concept for a cartoon show.</p>
+
+   <h2>Magazine Cover Story</h2>
+   <p>Cover Story for a magazine publication titled :"Take a Sip!"</p>
+
+  <h2>Contest Draft</h2>
+   <p>Concept for a final presentation for a Graphic Design contest</p>
+
+
+
+</body>
+
+<head>
+
+<meta name=charset=utf-8>
+
+<h1>Portfolio</h1>
+</head>
+<head>
+<h1>Photography</h1>
+</head>
+
+
+<body>
+
+<img src="img/sushi2.lnk" alt=sushi  style="width:300px;height:200px;">
+
+
+<img src="img/flowers.lnk" alt= Flowers style="width:300px;height:200px;">
+
+
+<img src="img/Final.lnk" alt= Painting style="width:300px;height:200px;">
+
+
+
+<h2>Food Photography</h2>
+<p>Sushi is the main subject in this food Photography style</p>
+
+<h2>Color Photography</h2>
+<p>Concept for displaying the color element of photography</p>
+
+<h2>Final Project</h2>
+<p>The goal of this project is to photograph anything with sentiment, elements that are special</p>
+</body>
