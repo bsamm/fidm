@@ -10,7 +10,7 @@
 * [Helena Hahn](https://bsamm.github.io/fidm/helena-hahn/home.html)
 * [Joshua Crespo](https://bsamm.github.io/fidm/joshua-crespo/index.html)
 * [Karen Sanovicz](https://bsamm.github.io/fidm/karen-sanovicz/Home.html)
-* [Martina Adrianza](https://bsamm.github.io/fidm/martina-adrianza/madrianza_porfoliodraft2.html)
+* [Martina Adrianza](https://bsamm.github.io/fidm/martina-adrianza/madrianza_porfolio.html)
 * [Parker Wild](https://bsamm.github.io/fidm/parker-wild/AtomDraft2.html)
 * [Patrick Gamel](https://bsamm.github.io/fidm/patrick-gamel/home.html)
 * [Talea Thornton](https://bsamm.github.io/fidm/talea-thornton/index.html)
