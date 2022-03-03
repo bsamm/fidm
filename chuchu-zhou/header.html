@@ -14,30 +14,30 @@
 		var type=localStorage.getItem('type');
 		if(type==0){
 				document.getElementById("abount").innerHTML ='ABOUT';
-				document.getElementById("abount").setAttribute("class", "head-a font1");
+				document.getElementById("abount").setAttribute("class", "head-a font1"); 
 				document.getElementById("design").innerHTML ='DESIGN';
-				document.getElementById("design").setAttribute("class", "head-a font1");
+				document.getElementById("design").setAttribute("class", "head-a font1"); 
 				document.getElementById("drawing").innerHTML ='DRAWING';
 				document.getElementById("logo").innerHTML ='LOGO';
 				document.getElementById("project").innerHTML ='PROJECT';
 				document.getElementById("photography").innerHTML ='PHOTOGRAPHY';
-				document.getElementById("photography").setAttribute("class", "head-a font1");
+				document.getElementById("photography").setAttribute("class", "head-a font1"); 
 				document.getElementById("contact").innerHTML ='CONTACT';
-				document.getElementById("contact").setAttribute("class", "head-a font1");
+				document.getElementById("contact").setAttribute("class", "head-a font1"); 
 				var div=document.getElementById("selectUl");
 			}
 			if(type==1){
 				document.getElementById("abount").innerHTML ='简介';
-				document.getElementById("abount").setAttribute("class", "head-a font4");
+				document.getElementById("abount").setAttribute("class", "head-a font4"); 
 				document.getElementById("design").innerHTML ='作品';
-				document.getElementById("design").setAttribute("class", "head-a font4");
+				document.getElementById("design").setAttribute("class", "head-a font4"); 
 				document.getElementById("drawing").innerHTML ='绘画';
 				document.getElementById("logo").innerHTML ='徽标';
 				document.getElementById("project").innerHTML ='系列';
 				document.getElementById("photography").innerHTML ='摄影';
-				document.getElementById("photography").setAttribute("class", "head-a font4");
+				document.getElementById("photography").setAttribute("class", "head-a font4"); 
 				document.getElementById("contact").innerHTML ='联系我们';
-				document.getElementById("contact").setAttribute("class", "head-a font4");
+				document.getElementById("contact").setAttribute("class", "head-a font4"); 
 				var div=document.getElementById("selectUl");
 			}
 });
@@ -46,31 +46,31 @@
 			localStorage.setItem("type", type)
 			if(type==0){
 				document.getElementById("abount").innerHTML ='ABOUT';
-				document.getElementById("abount").setAttribute("class", "head-a font1");
+				document.getElementById("abount").setAttribute("class", "head-a font1"); 
 				document.getElementById("design").innerHTML ='DESIGN';
-				document.getElementById("design").setAttribute("class", "head-a font1");
+				document.getElementById("design").setAttribute("class", "head-a font1"); 
 				document.getElementById("drawing").innerHTML ='DRAWING';
 				document.getElementById("logo").innerHTML ='LOGO';
 				document.getElementById("project").innerHTML ='PROJECT';
 				document.getElementById("photography").innerHTML ='PHOTOGRAPHY';
-				document.getElementById("photography").setAttribute("class", "head-a font1");
+				document.getElementById("photography").setAttribute("class", "head-a font1"); 
 				document.getElementById("contact").innerHTML ='CONTACT';
-				document.getElementById("contact").setAttribute("class", "head-a font1");
+				document.getElementById("contact").setAttribute("class", "head-a font1"); 
 				var div=document.getElementById("selectUl");
-
+				
 			}
 			if(type==1){
 				document.getElementById("abount").innerHTML ='简介';
-				document.getElementById("abount").setAttribute("class", "head-a font4");
+				document.getElementById("abount").setAttribute("class", "head-a font4"); 
 				document.getElementById("design").innerHTML ='作品';
-				document.getElementById("design").setAttribute("class", "head-a font4");
+				document.getElementById("design").setAttribute("class", "head-a font4"); 
 				document.getElementById("drawing").innerHTML ='绘画';
 				document.getElementById("logo").innerHTML ='徽标';
 				document.getElementById("project").innerHTML ='系列';
 				document.getElementById("photography").innerHTML ='摄影';
-				document.getElementById("photography").setAttribute("class", "head-a font4");
+				document.getElementById("photography").setAttribute("class", "head-a font4"); 
 				document.getElementById("contact").innerHTML ='联系我们';
-				document.getElementById("contact").setAttribute("class", "head-a font4");
+				document.getElementById("contact").setAttribute("class", "head-a font4"); 
 				var div=document.getElementById("selectUl");
 
 
@@ -85,7 +85,7 @@
 			var type=localStorage.getItem('type');
 			window.location.href="contact.html?type="+type;
 		}
-
+		
 
 </script>
 </head>
@@ -111,7 +111,7 @@
 
 		      </ul>
 		  </div>
-
+		  
 	  </li>
 	  <li class="span3 head-li"><a id="photography" class="head-a font1" href="photography.html" >PHOTOGRAPHY</a></li>
 	  <li class="span3 head-li"><a  id="contact" class="head-a font1" onclick="toContact()" >CONTACT</a></li>
@@ -123,3 +123,4 @@
 
 </body>
 </html>
+

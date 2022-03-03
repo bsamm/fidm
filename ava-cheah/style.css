@@ -1,7 +1,6 @@
 ul {
   color: #292929;
   font-size: 46px;
-  font-family: Poppin;
   text-align: center;
 }
 
@@ -12,13 +11,77 @@ ul {
   float: none;
   text-align: center;
   color: #292929;
-  font-family: Poppin;
   font-size: 20px;
 }
+
+.workdropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.workdropdowncontent {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: poppins;
+}
+
+.workdropdowncontent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.workdropdowncontent a:hover {
+  background-color: #ddd;
+  }
+
+.workdropdown:hover .workdropdowncontent {
+  display: block;
+  }
+
+.personaldropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.personaldropdowncontent {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: poppins;
+}
+
+.personaldropdowncontent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.personaldropdowncontent a:hover {
+  background-color: #ddd;
+  }
+
+.personaldropdown:hover .personaldropdowncontent {
+  display: block;
+  }
+
+.personaldropdown:hover .personalbutton {
+  background-color: #fff;
+  }
 
 li {
   display: inline-block;
   padding: 25px;
+  font-family: Poppins;
 }
 
 li:nth-child(1) {
@@ -42,13 +105,11 @@ li:nth-child(4) {
 a:link {
   text-decoration: none;
   color: #292929;
-  font-family: Poppin;
 }
 
 a:visited {
   text-decoration: none;
   color: #292929;
-  font-family: Poppin;
 }
 
 a:hover {
@@ -56,13 +117,11 @@ a:hover {
   border-bottom-style: solid;
   border-bottom-width: 2.5px;
   color: #292929;
-  font-family: Poppin;
 }
 
 a:active {
   text-decoration: none;
   color: #292929;
-  font-family: Poppin;
 }
 
 img {
@@ -87,8 +146,34 @@ background-size: cover;
   width: 860px;
   object-fit: cover;
   background-size: cover;
+  backface-visibility: hidden;
+  transition: .5s ease;
+  opacity: 1;
 }
 
+.cultgaiahover{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+}
+
+.cultgaiacover :hover .cultgaiacover{
+  opacity: 0.3;
+}
+
+.cultgaiacover:hover .cultgaiahover{
+  opacity: 1;
+}
+
+.cultgaianame {
+  background-color: #292929;
+  background: rgba(0, 0, 0, 0.432);
+  font-family: Telugu MN;
+  color: white;
+  font-size: 40px;
+  padding: 16px 32px;
+  text-align: center;
+}
 .nanushkacircolocover {
   height: 302px;
   width: 490px;
@@ -97,11 +182,86 @@ background-size: cover;
   float: left;
 }
 
+.nanushkahover{
+  transition: .5s ease;
+  opacity: 0;
+  position:absolute;
+  align-items: center;
+}
+
+.nanushkacover :hover nanushkacover{
+  opacity: 0.3;
+}
+
+.nanushkacover:hover .nanushkahover{
+  opacity: 1;
+}
+
+.nanushkaname {
+  background-color: #292929;
+  background: rgba(0, 0, 0, 0.432);
+  font-family: Telugu MN;
+  color: white;
+  font-size: 40px;
+  padding: 16px 32px;
+  text-align: center;
+}
+
+.circolohover{
+  transition: .5s ease;
+  opacity: 0;
+  position:absolute;
+  top: 406px;
+  align-items: center;
+}
+
+.circolocover :hover circolocover{
+  opacity: 0.3;
+}
+
+.circolocover:hover .circolohover{
+  opacity: 1;
+}
+
+.circoloname {
+  background-color: #292929;
+  background: rgba(0, 0, 0, 0.432);
+  font-family: Telugu MN;
+  color: white;
+  font-size: 40px;
+  padding: 16px 32px;
+  text-align: center;
+}
+
 .rotatecover {
   height: 604px;
   width: 860px;
   object-fit: cover;
   background-size: cover;
+}
+
+.rotatehover{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+}
+
+.rotatecover :hover .rotatecover{
+  opacity: 0.3;
+}
+
+.rotatecover:hover .rotatehover{
+  opacity: 1;
+}
+
+.rotatename {
+  background-color: #292929;
+  background: rgba(0, 0, 0, 0.432);
+  font-family: Telugu MN;
+  color: white;
+  font-size: 40px;
+  padding: 16px 32px;
+  text-align: center;
 }
 
 .sansfaffcover {
@@ -112,6 +272,31 @@ background-size: cover;
   float:left;
 }
 
+.sansfaffhover{
+  transition: .5s ease;
+  opacity: 0;
+  position:absolute;
+  align-items: center;
+}
+
+.sansfaffcover :hover sansfaffcover{
+  opacity: 0.3;
+}
+
+.sansfaffcover:hover .sansfaffhover{
+  opacity: 1;
+}
+
+.sansfaffname {
+  background-color: #292929;
+  background: rgba(0, 0, 0, 0.432);
+  font-family: Telugu MN;
+  color: white;
+  font-size: 40px;
+  padding: 16px 32px;
+  text-align: center;
+}
+
 .secondwork {
 float:left;
 display: flex;
@@ -120,11 +305,35 @@ background-size: cover;
 }
 
 .bpcover {
-  height: 500px;
-  width: 270px;
-  display: flex;
-  object-fit:cover;
-  background-size: cover;
+height: 500px;
+width: 280px;
+object-fit:cover;
+background-size: cover;
+}
+
+.bphover{
+  transition: .5s ease;
+  opacity: 0;
+  position:absolute;
+  align-items: center;
+}
+
+.bpcover :hover bpcover{
+  opacity: 0.3;
+}
+
+.bpcover:hover .bphover{
+  opacity: 1;
+}
+
+.bpname {
+  background-color: #292929;
+  background: rgba(0, 0, 0, 0.432);
+  font-family: Telugu MN;
+  color: white;
+  font-size: 40px;
+  padding: 16px 32px;
+  text-align: center;
 }
 
 .collage {
@@ -134,6 +343,32 @@ background-size: cover;
   object-fit:cover;
   background-size: cover;
 }
+
+.collagehover{
+transition: .5s ease;
+opacity: 0;
+position:absolute;
+align-items: center;
+}
+
+.collagecover :hover collagecover{
+opacity: 0.3;
+}
+
+.collagecover:hover .collagehover{
+opacity: 1;
+}
+
+.collagename {
+background-color: #292929;
+background: rgba(0, 0, 0, 0.432);
+font-family: Telugu MN;
+color: white;
+font-size: 40px;
+padding: 16px 32px;
+text-align: center;
+}
+
 
 .thirdwork{
   float:left;
@@ -150,12 +385,69 @@ background-size: cover;
   float:left;
 }
 
+.birdnknollhover{
+  transition: .5s ease;
+  opacity: 0;
+  position:absolute;
+  align-items: center;
+}
+
+.birdnknollcover :hover birdnknollcover{
+  opacity: 0.3;
+}
+
+.birdnknollcover:hover .birdnknollhover{
+  opacity: 1;
+}
+
+.birdnknollname {
+  background-color: #292929;
+  background: rgba(0, 0, 0, 0.432);
+  font-family: Telugu MN;
+  color: white;
+  font-size: 40px;
+  padding: 16px 32px;
+  text-align: center;
+}
+
+.birdnknollcover {
+  height: 604px;
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
+  float:left;
+}
+
 .seemorecover {
   height: 604px;
   width: 100%;
-  display:flex;
   object-fit: cover;
   background-size: cover;
+}
+
+.seemorehover{
+  transition: .5s ease;
+  opacity: 0;
+  position:absolute;
+  align-items: center;
+}
+
+.seemorecover :hover seemorecover{
+  opacity: 0.3;
+}
+
+.seemorecover:hover .seemorehover{
+  opacity: 1;
+}
+
+.seemorename {
+  background-color: #292929;
+  background: rgba(0, 0, 0, 0.432);
+  font-family: Telugu MN;
+  color: white;
+  font-size: 40px;
+  padding: 16px 32px;
+  text-align: center;
 }
 
 .personalwork {
@@ -166,14 +458,14 @@ background-size: cover;
 }
 
 .grimescover {
-  height: 663px;
+  height: 704px;
   width: 100%;
   object-fit: cover;
   background-size: cover;
 }
 
 .glossiercover {
-  height: 663px;
+  height: 704px;
   width: 100%;
   size: auto;
   object-fit: cover;
@@ -188,9 +480,25 @@ background-size: cover;
 }
 
 .guscover img{
-  width: 50%;
+  height: 663px;
+  width: 589px;
   object-fit: cover;
-  object-position: -20% 0%;
+  float:left;
+  overflow: hidden;
+}
+
+.willowcover img{
+  height: 663px;
+  width: 589px;
+  object-fit: cover;
+  float:left;
+  overflow: hidden;
+}
+
+.skinscover img{
+  height: 663px;
+  width: 589px;
+  object-fit: cover;
   float:left;
   overflow: hidden;
 }
@@ -200,31 +508,32 @@ background-size: cover;
   font-family: Poppin;
   font-size: 20px;
   text-align: center;
+  padding-left: 90px;
 }
 
 .leaveamessage{
   font-family: Telugu MN;
-  font-size: 150%;
+  font-size: 160%;
   text-align: center;
   align-items: center;
   margin: auto;
+  padding-left: 100px;
 }
 
 input[type=text] {
   width: 40%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  padding: 10px 12px;
+  margin: 2px 0;
   box-sizing: border-box;
-  display:inline-block;
-  margin-right:30px;
 }
 
 .message input[type=text]{
-  height: 40%;
+  height: 75%;
+  vertical-align: super;
 }
 
 fieldset{
-  max-width: 50%;
+  max-width: 70%;
   align-items: center;
   text-align: center;
   border: none;
@@ -232,8 +541,26 @@ fieldset{
   margin: auto;
 }
 
+ .message {
+  border: none;
+  outline: none;
+  margin: auto;
+  height:300px;
+}
+
+input[type=submit] {
+    padding:12px;
+    background:#707070;
+    color: #fff;
+    font-size: 20px;
+    width: 15%;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 19px;
+}
+
 .mypicture{
-  max-width: %;
   align-items: center;
   margin: auto;
   display: flex;
@@ -243,6 +570,555 @@ fieldset{
 }
 
 .mypicturecover{
-  width: 60%;
-  height: 60%;
+  object-fit: cover;
+  width: 700px;
+  height: 604px;
+}
+
+.aboutme {
+  font-family:Poppins;
+  color:#ffffff;
+  font-size: 32px;
+  padding-left: 150px;
+  padding-bottom: 35px;
+}
+
+.paragraphone {
+  font-size:16px;
+  inline-size: 400px;
+   overflow-wrap: break-word;
+}
+
+.paragraphone-2 {
+  font-size:16px;
+  inline-size: 400px;
+  overflow-wrap: break-word;
+  padding-bottom: 25px;
+}
+
+button {
+      background-color: #707070;
+      border: 5px;
+      border-radius: 19px;
+      color: #fff;
+      padding: 12px;
+      font-size: 20px;
+      width: 40%;
+    }
+
+.grimeshover{
+transition: .5s ease;
+opacity: 0;
+position:absolute;
+align-items: center;
+}
+
+.grimescover :hover grimescover{
+opacity: 0.3;
+}
+
+.grimescover:hover .grimeshover{
+opacity: 1;
+}
+
+.grimesname {
+background-color: #292929;
+background: rgba(0, 0, 0, 0.432);
+font-family: Telugu MN;
+color: white;
+font-size: 40px;
+padding: 16px 32px;
+text-align: center;
+}
+
+.glossierhover{
+transition: .5s ease;
+opacity: 0;
+position:absolute;
+align-items: center;
+}
+
+.glossiercover :hover glossiercover{
+opacity: 0.3;
+}
+
+.glossiercover:hover .glossierhover{
+opacity: 1;
+}
+
+.glossiername {
+background-color: #292929;
+background: rgba(0, 0, 0, 0.432);
+font-family: Telugu MN;
+color: white;
+font-size: 40px;
+padding: 16px 32px;
+text-align: center;
+}
+
+.gushover{
+transition: .5s ease;
+opacity: 0;
+position:absolute;
+align-items: center;
+}
+
+.guscover :hover guscover{
+opacity: 0.3;
+}
+
+.guscover:hover .gushover{
+opacity: 1;
+}
+
+.gusname {
+background-color: #292929;
+background: rgba(0, 0, 0, 0.432);
+font-family: Telugu MN;
+color: white;
+font-size: 40px;
+padding: 16px 32px;
+text-align: center;
+}
+
+.willowhover{
+transition: .5s ease;
+opacity: 0;
+position:absolute;
+align-items: center;
+}
+
+.willowcover :hover willowcover{
+opacity: 0.3;
+}
+
+.willowcover:hover .willowhover{
+opacity: 1;
+}
+
+.willowname {
+background-color: #292929;
+background: rgba(0, 0, 0, 0.432);
+font-family: Telugu MN;
+color: white;
+font-size: 40px;
+padding: 16px 32px;
+text-align: center;
+}
+
+.skinshover{
+transition: .5s ease;
+opacity: 0;
+position:absolute;
+align-items: center;
+}
+
+.skinscover :hover skinscover{
+opacity: 0.3;
+}
+
+.skinscover:hover .skinshover{
+opacity: 1;
+}
+
+.skinsname {
+background-color: #292929;
+background: rgba(0, 0, 0, 0.432);
+font-family: Telugu MN;
+color: white;
+font-size: 40px;
+padding: 16px 32px;
+text-align: center;
+}
+
+.topnav {
+background-color: #fff;
+position: sticky;
+Top:0;
+z-index: 3;
+}
+
+.cultgaiadesign {
+  display: flex;
+  object-fit: cover;
+  width: 100%;
+  padding-bottom:40px;
+}
+
+
+.cultgaiawork-1 {
+  padding: 10px;
+}
+
+.cultgaiawork-2 {
+  padding: 10px;
+}
+
+.cultgaiawork-3 {
+  padding: 10px;
+}
+
+.cultgaiawork-4 {
+  padding: 10px;
+}
+
+.cultgaiawork-5 {
+  padding: 10px;
+}
+
+.info p {
+  font-family:poppins;
+  text-align: center;
+}
+
+.nanushkadesign {
+  display: flex;
+  object-fit: cover;
+  margin-left: 130px;
+  height: 500px;
+  padding-left:10px;
+}
+
+.nanushkawork-1 {
+  padding: 10px;
+}
+
+.nanushkawork-2 {
+  padding: 10px;
+}
+
+.nanushkawork-3 {
+  padding: 10px;
+}
+
+.nanushkawork-4 {
+  padding: 10px;
+}
+
+.rotatedesign {
+  display: flex;
+  object-fit: cover;
+  margin: 13px;
+  max-width: 100%;
+}
+
+.rotatework-1 {
+  padding: 10px;
+}
+
+.rotatework-2 {
+  padding: 10px;
+}
+
+.rotatework-3 {
+  padding: 10px;
+}
+
+.rotatework-4 {
+  padding: 10px;
+}
+
+.rotatework-5 {
+  padding: 10px;
+}
+
+.circolodesign {
+  display: flex;
+  object-fit: cover;
+  margin: 13px;
+  max-width: 100%;
+}
+
+.circolowork-1 {
+  padding: 10px;
+}
+
+.circolowork-2 {
+  padding: 10px;
+}
+
+.circolowork-3 {
+  padding: 10px;
+}
+
+.circolowork-4 {
+  padding: 10px;
+}
+
+.circolowork-5 {
+  padding: 10px;
+}
+
+.sfdesign {
+  display: flex;
+  object-fit: cover;
+  margin-left: 130px;
+  height: 500px;
+}
+
+.sfwork-1 {
+  padding: 10px;
+}
+
+.sfwork-2 {
+  padding: 10px;
+}
+
+.sfwork-3 {
+  padding: 10px;
+}
+
+.sfwork-4 {
+  padding: 10px;
+}
+
+.bpdesign-1 {
+  display: flex;
+  object-fit: cover;
+  margin-left: 280px;
+  height: 500px;
+}
+
+.bpwork-1 {
+  padding: 10px;
+}
+
+.bpwork-2 {
+  padding: 10px;
+}
+
+.bpwork-3 {
+  padding: 10px;
+}
+
+.bpdesign-2 {
+  display: flex;
+  object-fit: cover;
+  margin-left: 280px;
+  height: 500px;
+}
+
+.bpwork-4 {
+  padding: 10px;
+}
+
+.bpwork-5 {
+  padding: 10px;
+}
+
+.bpwork-6 {
+  padding: 10px;
+}
+
+.collagedesign {
+  display: flex;
+  object-fit: cover;
+  margin-left: 40px;
+  height: 500px;
+  padding-bottom:40px;
+}
+
+.collagework-1 {
+  padding: 10px;
+}
+
+.collagework-2 {
+  padding: 10px;
+}
+
+.nanushkawork-3 {
+  padding: 10px;
+}
+
+.collagework-4 {
+  padding: 10px;
+}
+
+.birddesign {
+  display: flex;
+  object-fit: cover;
+  margin-left: auto;
+  height: 500px;
+  padding-bottom: 40px;
+}
+
+.birdwork-1 {
+  padding: 10px;
+}
+
+.birdwork-2 {
+  padding: 10px;
+}
+
+.birdwork-3 {
+  padding: 10px;
+}
+
+.grimesdesign-1 {
+  display: flex;
+  object-fit: cover;
+  margin-left: auto;
+  height: 500px;
+}
+
+.grimeswork-1 {
+  padding: 10px;
+}
+
+.grimeswork-2 {
+  padding: 10px;
+}
+
+.grimeswork-3 {
+  padding: 10px;
+}
+
+.grimesdesign-2 {
+  display: flex;
+  object-fit: cover;
+  margin-left: auto;
+  height: 500px;
+}
+
+.grimeswork-4 {
+  padding: 10px;
+}
+
+.grimeswork-5 {
+  padding: 10px;
+}
+
+.grimeswork-6 {
+  padding: 10px;
+}
+
+.glossierdesign {
+  display: flex;
+  object-fit: cover;
+  margin-left: 90px;
+  height: 500px;
+  padding-bottom: 40px;
+}
+
+.glossierwork-1 {
+  padding: 10px;
+}
+
+.glossierwork-2 {
+  padding: 10px;
+}
+
+.gusdesign-1 {
+  display: flex;
+  object-fit: cover;
+  margin-left: 90px;
+  height: 500px;
+}
+
+.guswork-1 {
+  padding: 10px;
+}
+
+.guswork-2 {
+  padding: 10px;
+}
+
+.gusdesign-2 {
+  display: flex;
+  object-fit: cover;
+  margin-left: 90px;
+  height: 500px;
+}
+
+.guswork-3 {
+  padding: 10px;
+}
+
+.guswork-4 {
+  padding: 10px;
+}
+
+.louddesign-1 {
+  display: flex;
+  object-fit: cover;
+}
+.louddesign-2 {
+  display: flex;
+  object-fit: cover;
+}
+.louddesign-3 {
+  display: flex;
+  object-fit: cover;
+}
+.louddesign-4 {
+  display: flex;
+  object-fit: cover;
+}
+
+.loudwork-1 {
+  padding: 10px;
+}
+.loudwork-2 {
+  padding: 10px;
+}
+.loudwork-3 {
+  padding: 10px;
+}
+.loudwork-4 {
+  padding: 10px;
+}
+.loudwork-5 {
+  padding: 10px;
+}
+.loudwork-6 {
+  padding: 10px;
+}
+.loudwork-7 {
+  padding: 10px;
+}
+.loudwork-8 {
+  padding: 10px;
+}
+
+.skinsdesign {
+  display: flex;
+  object-fit: cover;
+  margin-left: 300px;
+  height: 510px;
+}
+
+.skinswork-1 {
+  padding: 10px;
+}
+
+.skinswork-2 {
+  padding: 10px;
+}
+
+.skinsdesign-2 {
+  display: flex;
+  object-fit: cover;
+  margin-left: 300px;
+  height: 510px;
+}
+
+.skinswork-3 {
+  padding: 10px;
+}
+
+.guswork-4 {
+  padding: 10px;
+}
+
+input[type=contactme] {
+    padding:12px;
+    background:#707070;
+    color: #fff;
+    font-size: 20px;
+    width: 27%;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 19px;
+    text-align: center;
 }

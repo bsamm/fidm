@@ -1,29 +1,45 @@
-@font-face {
-  font-family: bodega-sans, sans-serif;
-  src:url("Assets/FONT/BodegaSans_LightSmallcaps.ttf");
-}
 
+
+@font-face {
+  font-family: bodega-sans;
+  src: url("../FONT/BodegaSans_LightSmallcaps.ttf");
+}
 body {
-  font-family: bodega-sans, sans-serif;
+  background-clip: inherit;
+  font-family: bodega-sans;
+
 }
 
 ul {
-  color: #7F132B;
-  font-size: 20px;
+  list-style-type: none;
+  color: #9a1918;
+  font-size: 60px;
+  line-height: 100px;
+  font-family:bodega-sans;
+  font-weight: 600;
+  font-variant: small-caps;
+
 }
 
+.descrition {
+  position: fixed;
+  left: 350px;
+  bottom: 30px;
 
+}
 /* Style the video: 100% width and height to cover the entire window */
 .video-background {
-  position: fixed;
+  position: absolute;
   right: 0;
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+  background-color: #fcdfcd;
 }
 
 /* Add some content at the bottom of the video/page */
 .content {
   position: fixed;
   top: auto;
+  float: left;
 }

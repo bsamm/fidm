@@ -86,12 +86,30 @@ font-family: ITCSerifGothicBold;
   vertical-align: middle;
 }
 
+.bio-text {
+  padding-top: 10% !important;
+  padding-bottom: 40%;
+
+}
+
+.home-block {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  line-height: 75%;
 
 
 }
 
+
+
+
 a.bodylink {
   color: white;
+}
+
+hr {
+  border-top: .25px solid white;
 }
 
 </style>
