@@ -20,6 +20,11 @@ body {
     margin: 100px;
   }
 
+  img {
+  display: block;
+  max-width: 8%;
+}
+
   /* div.logo{
     position: center;
     width: 100px;
