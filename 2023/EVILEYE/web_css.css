@@ -1,0 +1,70 @@
+web_css.css
+
+/* Reset default margin and padding */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Main styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.masthead {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.masthead-logo {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.masthead-nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.masthead-nav li {
+  margin-left: 20px;
+}
+
+.masthead-nav a {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+.masthead-nav a:hover {
+  color: red;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  /* Add styles for your giant eye logo here */
+}
+
+footer {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  color: #fff;
+}

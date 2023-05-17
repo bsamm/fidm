@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://use.typekit.net/vvu5fjl.css">
+    <title>Samie Nolan Studios</title>
+  </head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Starter with grid</title>
+
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="../assets/styles/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/styles/bootstrap/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="../assets/styles/main.css">
+  </head>
+  
+  <div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h1>RECENT WORK</h1>
+      <p>Solimar Pictures is a film group company. Currently based in Oahu, Hawaii, the name comes from a beach town in California which inspired the logo design. </p>
+      <a class="two" href="#">VIEW CASE STUDY</a>
+    </div>
+
+    <div class="col-md-6"> 
+      <img src="../assets/images/SolimarPictures-01.png" class="w3-round" width="500" height="281.25">
+    </div>
+  </div>
+
+
+  <div class="row">
+
+    <div class="col-md-6"> 
+      <img src="../assets/images/rr.png" class="w3-round" width="500px" height="500px">
+    </div>
+
+    <div class="col-md-6">
+      <h1>ROGUE REMOTE</h1>
+      <p>In collaboration with GEO Film Group, Rogue Remote, a new remote head, needed its own branding. This project required several different brand plaques to go on the product.</p>
+      <a class="two" href="#">VIEW CASE STUDY</a>
+    </div>
+  </div>
+
+  <div class="row">
+
+    
+    <div class="col-md-6">
+      <h1>LACMA REBRAND</h1>
+      <p>A contemporary museum based in Los Angeles gets refreshed with a new logo and ticket design.</p>
+      <a class="two" href="#">VIEW CASE STUDY</a>
+    </div>
+
+      <div class="col-md-6"> 
+        <img src="../assets/images/Mockups for lacma-07.jpg" class="w3-round" width="1233">
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
+@font-face {
+font-family: "thunderhouse-pro", sans-serif;
+font-weight: 400;
+font-style: normal;
+src:url("<link rel="stylesheet" href="https://use.typekit.net/vvu5fjl.css">");
+}
+
+ul.topnav {
+display: block;
+block-size: 1.75in;
+position: fixed;
+list-style-type: none;
+margin: 0;
+float: center;
+overflow: hidden;
+background-color: #000000;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+background-color: #000000;
+}
+
+a.one {
+color:rgb(255, 255, 255);
+font-size: 100px;
+font-family: "thunderhouse-pro", sans-serif;
+font-weight: 100;
+font-style: normal;
+src:url("<link rel="stylesheet" href="https://use.typekit.net/vvu5fjl.css">");
+display: inline;
+}
+
+a.one:hover {
+color: rgb(255, 0, 0);
+text-decoration: none;
+}
+
+a.two{
+color:rgb(255, 255, 255); 
+font-family: "thunderhouse-pro", sans-serif;
+font-weight: 100;
+font-style: normal;
+src:url("<link rel="stylesheet" href="https://use.typekit.net/vvu5fjl.css">");
+text-decoration: underline;
+}
+a.two:hover {
+color: rgb(255, 0, 0);
+text-decoration: underline;
+}
+h1 {
+font-size: 70px;
+font-family: "thunderhouse-pro", sans-serif;
+font-weight: 400;
+font-style: normal;
+src:url("<link rel="stylesheet" href="https://use.typekit.net/vvu5fjl.css">");
+}
+
+h2 {
+font-size: 80px;
+font-family: "thunderhouse-pro", sans-serif;
+font-style: normal;
+src:url("<link rel="stylesheet" href="https://use.typekit.net/vvu5fjl.css">");
+}
+
+p {
+font-size: 17px;
+font-family: "ocr-b-std", monospace;
+font-weight: 400;
+font-style: normal;
+src:url("<link rel="stylesheet" href="https://use.typekit.net/afc8opu.css">")
+}
+
+body {
+background-color: #000000;
+color: #ffffff; /* black */
+}
+
+ul {
+}
+
+li {
+display: inline;
+padding: 5px;
+}
+
+li a {
+display: inline;
+padding: 4px;
+background-color: #000000;
+color: white;
+text-align: center;
+text-decoration: none;
+}
+
+
+img {
+width: 35vw;
+border-radius: 25px;
+}
+
+.container {
+}
+
+.masonry-container {
+padding-top: 150px;
+padding-right: 50px;
+padding-left: 50px;
+column-count: 4;
+column-gap: 15px;
+}
+.masonry-item {
+display: inline-block;
+width: 100%;
+}
+.masonry-item img {
+display:block;
+width: 100%;
+}
