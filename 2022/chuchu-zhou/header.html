@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+  </style>
+  <link rel="stylesheet" href="https://cdn.bootcss.com/twitter-bootstrap/2.3.2/css/bootstrap.min.css" rel="external nofollow" >
+  <script src="http://libs.baidu.com/jquery/1.7.2/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/twitter-bootstrap/2.3.2/js/bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/header.css" />
+	<link rel="stylesheet" type="text/css" href="css/font.css" />
+	<script type="text/javascript">
+   $(document).ready(function(){
+		var type=localStorage.getItem('type');
+		if(type==0){
+				document.getElementById("abount").innerHTML ='ABOUT';
+				document.getElementById("abount").setAttribute("class", "head-a font1"); 
+				document.getElementById("design").innerHTML ='DESIGN';
+				document.getElementById("design").setAttribute("class", "head-a font1"); 
+				document.getElementById("drawing").innerHTML ='DRAWING';
+				document.getElementById("logo").innerHTML ='LOGO';
+				document.getElementById("project").innerHTML ='PROJECT';
+				document.getElementById("photography").innerHTML ='PHOTOGRAPHY';
+				document.getElementById("photography").setAttribute("class", "head-a font1"); 
+				document.getElementById("contact").innerHTML ='CONTACT';
+				document.getElementById("contact").setAttribute("class", "head-a font1"); 
+				var div=document.getElementById("selectUl");
+			}
+			if(type==1){
+				document.getElementById("abount").innerHTML ='简介';
+				document.getElementById("abount").setAttribute("class", "head-a font4"); 
+				document.getElementById("design").innerHTML ='作品';
+				document.getElementById("design").setAttribute("class", "head-a font4"); 
+				document.getElementById("drawing").innerHTML ='绘画';
+				document.getElementById("logo").innerHTML ='徽标';
+				document.getElementById("project").innerHTML ='系列';
+				document.getElementById("photography").innerHTML ='摄影';
+				document.getElementById("photography").setAttribute("class", "head-a font4"); 
+				document.getElementById("contact").innerHTML ='联系我们';
+				document.getElementById("contact").setAttribute("class", "head-a font4"); 
+				var div=document.getElementById("selectUl");
+			}
+});
+		// 第三种 通过方法响应点击事件
+		function upssion(type){
+			localStorage.setItem("type", type)
+			if(type==0){
+				document.getElementById("abount").innerHTML ='ABOUT';
+				document.getElementById("abount").setAttribute("class", "head-a font1"); 
+				document.getElementById("design").innerHTML ='DESIGN';
+				document.getElementById("design").setAttribute("class", "head-a font1"); 
+				document.getElementById("drawing").innerHTML ='DRAWING';
+				document.getElementById("logo").innerHTML ='LOGO';
+				document.getElementById("project").innerHTML ='PROJECT';
+				document.getElementById("photography").innerHTML ='PHOTOGRAPHY';
+				document.getElementById("photography").setAttribute("class", "head-a font1"); 
+				document.getElementById("contact").innerHTML ='CONTACT';
+				document.getElementById("contact").setAttribute("class", "head-a font1"); 
+				var div=document.getElementById("selectUl");
+				
+			}
+			if(type==1){
+				document.getElementById("abount").innerHTML ='简介';
+				document.getElementById("abount").setAttribute("class", "head-a font4"); 
+				document.getElementById("design").innerHTML ='作品';
+				document.getElementById("design").setAttribute("class", "head-a font4"); 
+				document.getElementById("drawing").innerHTML ='绘画';
+				document.getElementById("logo").innerHTML ='徽标';
+				document.getElementById("project").innerHTML ='系列';
+				document.getElementById("photography").innerHTML ='摄影';
+				document.getElementById("photography").setAttribute("class", "head-a font4"); 
+				document.getElementById("contact").innerHTML ='联系我们';
+				document.getElementById("contact").setAttribute("class", "head-a font4"); 
+				var div=document.getElementById("selectUl");
+
+
+			}
+		}
+
+		function toAbount(){
+			var type=localStorage.getItem('type');
+			window.location.href="about.html?type="+type;
+		}
+		function toContact(){
+			var type=localStorage.getItem('type');
+			window.location.href="contact.html?type="+type;
+		}
+		
+
+</script>
+</head>
+<body>
+  <div class="tabbable"> <!-- Only required for left/right tabs -->
+    <ul class="row head-ul">
+      <li class="span3 head-li" style="margin-top: 0px;"><a onclick="history.back(-1)" ><img width="160px" src="img/header/MZ.png"></a></li>
+      <li  class="span3 head-li"><a  id="abount"  class="head-a font1" onclick="toAbount()" >ABOUT</a></li>
+	  <li class="span3 head-li">
+		  <div class="dropdown">
+		      <a id="design"  class="head-a font1 dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">DESIGN
+		      </a>
+		      <ul id="selectUl" class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1" style="background: #999;    margin-left: 50px;">
+				  <li role="presentation" style="text-align: center;font-size: 20px;margin-top: 10px;" >
+				      <a class=" font2" id="drawing" style="color: #f5f5f5" role="menuitem" tabindex="-1" href="drawing.html">DRAWING</a>
+				  </li>
+				  <li role="presentation" style="text-align: center;font-size: 20px;margin-top: 10px;" >
+						<a class=" font2"  id="logo" style="color: #f5f5f5" role="menuitem" tabindex="-1" href="logo.html">LOGO</a>
+		          </li>
+							<li role="presentation" style="text-align: center;font-size: 20px;margin-top: 10px;margin-bottom: 10px;" >
+								<a class=" font2" id="project" style="color: #f5f5f5" role="menuitem" tabindex="-1" href="project.html">PROJECT</a>
+		          </li>
+
+		      </ul>
+		  </div>
+		  
+	  </li>
+	  <li class="span3 head-li"><a id="photography" class="head-a font1" href="photography.html" >PHOTOGRAPHY</a></li>
+	  <li class="span3 head-li"><a  id="contact" class="head-a font1" onclick="toContact()" >CONTACT</a></li>
+		<li class="span3 head-li" style="text-align: right;"><a  class="head-a font3" onclick="upssion(0)" >ENG</a>
+			<a class="head-a font3" >|</a>
+			<a class="head-a font3" onclick="upssion(1)" >中文</a></li>
+    </ul>
+  </div>
+
+</body>
+</html>
+

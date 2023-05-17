@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+  </style>
+  <link rel="stylesheet" href="https://cdn.bootcss.com/twitter-bootstrap/2.3.2/css/bootstrap.min.css" rel="external nofollow" >
+  <script src="http://libs.baidu.com/jquery/1.7.2/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/twitter-bootstrap/2.3.2/js/bootstrap.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/header.css" />
+  <link rel="stylesheet" type="text/css" href="css/design.css" />
+	<script type="text/javascript">
+   
+        // 第三种 通过方法响应点击事件
+        function threeFn(src){
+			document.getElementById("bigImg").src=src;
+        }
+    </script>
+</head>
+<body  class="logopage">
+<div class="tabbable" > <!-- Only required for left/right tabs -->
+	<ul style="list-style: none;margin: 0;">
+		<li class="span2 " style="margin-left: 0px;" ><a onclick="history.back(-1)" ><img width="160px" src="img/design/MZ2.png"></a></li>
+	</ul>
+	
+	<div style="display:flex;">
+	 <div class="outer-container">
+	     <div class="inner-container">
+	        <div class="content">
+	           <ul class="row design-ul">
+	             <li class="span8 design-li minImgDiv " onclick="threeFn('img/logo/ctrip.png')" ><img class="minImg" src="img/logo/ctrip.png"></li>
+	             <li class="span8 design-li minImgDiv" onclick="threeFn('img/logo/greenshoots.png')" ><img  class="minImg" src="img/logo/greenshoots.png"></li>
+	             <li class="span8 design-li minImgDiv" onclick="threeFn('img/logo/mariposa.png')"><img  class="minImg" src="img/logo/mariposa.png"></li>
+	             <li class="span8 design-li minImgDiv" onclick="threeFn('img/logo/michelle.zhou.png')"><img  class="minImg" src="img/logo/michelle.zhou.png"></li>
+	           </ul>
+	        </div>
+	     </div>
+	 </div>
+	
+	<div style="margin-top: 80px;">
+		<img id="bigImg"  class="bigImg"  src="img/logo/ctrip.png" />
+	</div>
+</div>
+  </div>
+</body>
+</html>

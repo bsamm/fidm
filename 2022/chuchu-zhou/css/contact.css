@@ -1,0 +1,76 @@
+
+.logopage{
+	background-size: cover;
+	background-image: url(../img/design/designpage.png);
+	background-repeat: no-repeat;
+}
+
+
+body{ text-align:center} 
+#divcss5{
+  color: white;
+  margin:0 auto;
+  border:1px solid #000;
+  width:40%;
+  height:700px;
+  background-color: #000;
+} 
+
+#divcss6{
+  color: white;
+  margin:0 auto;
+  border:1px solid #000;
+  width:40%;
+  height:700px;
+  background-color: #000;
+} 
+
+
+.spanLeft{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  width: 42%;
+  margin-left:6% ;
+  margin-top: 10px;
+  }
+
+.spanRight{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  width: 42%;
+  margin-left:8% ;
+  margin-top: 10px;
+  }
+
+.inputLeft{
+  width: 42%;
+  margin-left:4% ;
+  margin-top: 10px;
+  }
+
+.inputRight{
+  width: 42%;
+  margin-left:4% ;
+  margin-top: 10px;
+  }
+
+.inputRow{
+  width: 90%;
+  margin-left:4% ;
+  margin-top: 10px;
+  }
+
+.inputButtonRow{
+  font-weight: bold;
+  width: 92%;
+  margin-left:4% ;
+  margin-top: 30px;
+  border-radius: 30px;
+  color: white;
+  height: 50px;
+  font-size: 25px;
+  background-color: #2cd62c;
+  }
+

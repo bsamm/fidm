@@ -1,0 +1,65 @@
+@font-face {
+  font-family: Poppins-Regular;
+  src:url("../fonts/Poppins/Poppins-Regular.ttf");
+  font-family: Poppins-Medium;
+  src:url("../fonts/Poppins/Poppins-Medium.ttf");
+  font-family: Poppins-Bold;
+  src:url("../fonts/Poppins/Poppins-Bold.ttf");
+}
+
+body {
+  background-color: white;
+  color: #484848; /* black */
+  font-family: Poppins-Regular;
+  font-size: 16px;
+}
+
+
+
+button {
+  width: relative;
+  height: relative;
+  padding: 10px;
+  margin: 3px;
+  background-color: transparent;
+  outline: none;
+  border-color: #F08F81;
+  border-radius: 0px;
+  -moz-border-radius:0px;
+  -webkit-border-radius:0px;
+  font-size: 16px; color:#F08F81;
+}
+
+button:hover {
+  width: relative;
+  height: relative;
+  padding: 10px;
+  margin: 3px;
+  background-color: #F08F81;
+  outline: none;
+  border-color: #F08F81;
+  border-radius: 0px;
+  -moz-border-radius:0px;
+  -webkit-border-radius:0px;
+  font-size: 16px; color:white;
+}
+
+.center-text{
+  display: flex;
+  justify-content:center;
+}
+
+
+.vertical-align{
+  display: flex;
+  align-items: center;
+}
+
+
+.box{
+  min-height:400px;
+  max-height:600px;
+  min-width:400px;
+  max-width:600px;
+}
+

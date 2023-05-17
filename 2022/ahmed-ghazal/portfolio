@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demo 1 Starter</title>
+    <link rel="stylesheet" href="main.css">
+    <!-- unsemantic grid, learn more here: https://unsemantic.com/css-documentation -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/unsemantic/1.2.3/unsemantic-grid-responsive.min.css" integrity="sha512-LAimmZ/VX13iV1VJ3xThr5qWRKvji/fNwQrqvxcxQJxZ440lzwGipJGkvPBEKXcHcv+iH/F/Lw2YtnybNR7kEg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+
+  <body>
+    <!-- https://www.freecodecamp.org/news/basic-html5-template-boilerplate-code-example/ -->
